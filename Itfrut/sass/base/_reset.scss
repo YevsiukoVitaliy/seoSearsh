@@ -1,0 +1,41 @@
+body {
+	font-family: 'Helvetica Neue Cyr - Roman';
+	font-size: 16px;
+	font-weight: 400;
+}
+body.modal-open {
+	overflow: hidden;
+}
+:hover,
+:focus {
+	outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+button {
+	cursor: pointer;
+	padding: 0;
+	border: none;
+	color: inherit;
+	background-color: transparent;
+}
